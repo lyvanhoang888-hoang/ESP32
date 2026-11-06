@@ -33,7 +33,7 @@ void setup() {
   lcd.print("HE THONG DHT22");
 
   lcd.setCursor(0, 1);
-  lcd.print("ESP32 STARTING");
+  lcd.print("ESP32 BAT DAU");
 
   delay(2000);
   lcd.clear();
@@ -86,6 +86,6 @@ void loop() {
 
   Serial.println("-------------------------");
 
-  // Cap nhat moi 2 giay
-  delay(2000);
+  // Cap nhat moi 5 giay
+  delay(5000);
 }
